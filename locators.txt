@@ -1,0 +1,141 @@
+
+
+locators
+
+8 types
+
+id 
+
+
+Webelement username =driver.findelement(By.id("username"));
+
+
+classname
+
+
+Webelement username =driver.findelement(By.classname("username"));
+
+name
+
+Webelement username =driver.findelement(By.name("username"));
+
+xpath
+
+Webelement username =driver.findelement(By.xpath("//tagname[@attributenaem="attributevalue"]"));
+
+css selector
+
+Webelement username =driver.findelement(By.cssselector("//tagname[attributenaem=attributevalue]"));
+
+username .getAttrictbte("v")
+
+
+link text
+
+Webelement username =driver.findelement(By.linktext("click here"));
+
+Forgotten password?
+
+partial link text
+ Webelement username =driver.findelement(By.linktext("click he"));
+
+
+tagname
+
+List<Webelement> usernames =driver.findelements(By.tagname("a"));
+
+
+for(
+foreach(
+
+
+
+
+
+
+
+xpath types
+
+
+relative xpath
+
+//
+
+
+
+different methods in relative xpath 
+1. and 
+
+//input[@name="email" and @id="email" ]
+
+
+2. or
+
+//input[@name="email" or @id="email" ]
+
+3. contains
+
+//*[contains(@id,'u_0_5_')]
+
+4. normalize-space
+
+//div[normalize-space(text()) = 'space      in             between']
+
+5. text()
+
+//a[text()='Forgotten password?']
+
+
+7. starts-with
+
+//*[starts-with(@id,'u_0_5_')]
+
+
+//*[@id="passContainer"]
+
+absolute xpath
+
+
+/html/body/div[1]/div[1]/div[1]/div/div/div/div[2]/div/div[1]/form/div[1]/div[2]/div
+
+
+
+//input[@name="email" and @id="email" ]
+
+
+Xpath axis 
+
+
+1. child or self 
+
+//th[text()='Contact']//self::th
+
+2. descendant
+
+//a[@class="_6WQwDJ T88g6k"]//descendant ::div[text()='Printers']
+
+
+3. parent
+
+//*[text()='Germany']//parent::tr
+
+4. ancestors
+
+//*[text()='Mexico']//ancestor::tr
+
+5. following
+
+
+6. preceding
+
+7. following-sibling
+
+8. preceding-sibling
+
+
+
+
+
+
+
+
