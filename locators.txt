@@ -134,6 +134,64 @@ Xpath axis
 
 
 
+---------------------------------------------------
+Github  - remote repository
+
+
+source code a=mangement system
+
+version controls system
+
+
+gitbash desktop appliation
+https://git-scm.com/downloads
+
+github webapplication
+
+https://github.com/login
+
+
+
+
+
+
+git init
+
+git config --global user.name "username"
+git config --global user.email "emailID"
+
+git add locator.txt
+git commit -m "first commit"
+git branch -M main   //  
+git remote add origin https://github.com/TCFTechno/Flipkart_Suite.git
+git push -u origin main //
+git push -u orgin master
+
+
+
+push - upload
+
+pull - download
+
+
+master - main copy
+tester 1 branch - sub copy
+tester 2 branch - sub copy
+tester 3 branch - sub copy
+tester 4 branch - sub copy
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
