@@ -169,9 +169,10 @@ git push -u orgin master
 
 
 
-push - upload
+push - update the code to remote repository
+pull - retrieve the updated code from remote repository
 
-pull - download
+clone - download the code to your syste first time 
 
 
 master - main copy
