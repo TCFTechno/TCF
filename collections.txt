@@ -1,0 +1,123 @@
+Array 
+
+
+int arr[]=new int[5];
+
+
+arr[0]=1;
+arr[1]=1;
+arr[2]=1;
+arr[3]=1;
+arr[4]=1;
+
+
+
+
+Collections 
+
+
+it will support dissimilar data types
+no memory wastage
+it will aallows dynamic memory allocation
+
+
+
+
+
+1. List 
+
+ArrayList - class
+
+
+
+Linkedlist - class
+
+
+
+
+2. Set
+
+3. MAp
+
+
+
+List list=new ArrayList();
+
+1. it is index based -- 
+
+2. insertion order
+
+3. it allows duplicates
+
+4. it support generics
+
+value will print in square bracket 
+
+
+add()  =   to add value into arraylist we use add method 
+
+get() =  passing index value we can get the array list value  
+
+clear() = it wil clear all the Arraylist value
+
+size() = it will get the length of the ararylist
+
+
+remove() = by passing the index 
+
+
+set() =  by passing the existing index value we can upadte the value
+
+
+contains() = it will check the values present in arraylist or not
+
+
+indexof()=  using this method we can get the index position of the value.
+
+first value have the prefrences
+
+
+
+addall() == using addall() we can copy all the value into another arraylist
+
+
+removeall()  == it is used to compare the both list and remove the duplicate value in list
+
+list2=list2-list1; 
+
+
+retainall()=  it wil compare 2 arraylist and print the commaon value
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
